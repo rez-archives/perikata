@@ -1,0 +1,8 @@
+cron:
+- description: ensure supply
+  url: /ensure_supply # Must be prefixed with the same PATH_PREFIX defined in config.py
+  schedule: every 10 minutes
+- description: game on
+  url: /game_on # Must be prefixed with the same PATH_PREFIX defined in config.py
+  schedule: every 4 hours
+  
